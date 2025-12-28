@@ -104,7 +104,7 @@ https://ask-me-finances.lovable.app
   - Contraste adequado
   - Compatível com diferentes dispositivos e perfis de usuário
 
-##Reflexão
+## 🧠 Reflexão
 
 ### o que funcionou bem?
 
