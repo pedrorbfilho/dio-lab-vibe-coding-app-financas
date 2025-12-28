@@ -1,4 +1,122 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Finanças Pessoais do Pedro com Vibe Coding
+
+PDR refinado no copilot web:
+
+```markdown
+
+# PRD – App de Organização de Finanças Pessoais
+
+## 1. Contexto
+O aplicativo busca simplificar o controle financeiro pessoal por meio de conversas em linguagem natural, eliminando a necessidade de formulários complexos ou planilhas. A proposta é oferecer uma experiência fluida e acessível para quem deseja começar a organizar suas finanças.
+
+## 2. Problema
+- Apps atuais exigem entrada manual excessiva.  
+- Pouca personalização e recomendações práticas.  
+- Usuários iniciantes acabam desistindo por falta de simplicidade.  
+
+## 3. Público-Alvo
+- Pessoas que querem iniciar o controle financeiro sem complicações.  
+- Usuários iniciantes em finanças pessoais.  
+- Pessoas que preferem interações conversacionais em vez de interfaces tradicionais.  
+- Requisito adicional: o app deve ser projetado com Design Universal, garantindo que o maior número possível de pessoas consiga utilizá-lo, independentemente de idade, nível de experiência ou possíveis limitações.
+
+## 4. Funcionalidades-Chave
+1. Registro de gastos via chat em linguagem natural.  
+2. Classificação automática das transações (ex.: alimentação, transporte, lazer).  
+3. Definição e acompanhamento de metas financeiras (ex.: poupar R$200/mês).  
+4. Agente Financeiro que fornece dicas de economia personalizadas.  
+5. Relatórios simples e personalizados, com visualização clara de gastos e progresso.  
+6. Design Universal: interface acessível, intuitiva e inclusiva, com linguagem clara, contraste adequado e suporte a diferentes dispositivos.
+
+## 5. MVP – Plano de Entregáveis
+
+### Telas Principais
+- Tela de Conversa: interface central para registrar gastos e interagir com o agente.  
+- Tela de Metas: definir e acompanhar objetivos financeiros.  
+- Tela de Relatórios: gráficos simples mostrando categorias de gastos e evolução.  
+
+### Recursos Necessários
+- Motor de Processamento de Linguagem Natural (NLP) para interpretar mensagens.  
+- Algoritmo de classificação automática de transações.  
+- Módulo de recomendações financeiras.  
+- Banco de dados para armazenar transações, metas e relatórios.  
+- Diretrizes de acessibilidade (Design Universal) aplicadas desde o início.  
+
+### Validação Inicial
+- Teste com usuários iniciantes para avaliar clareza da conversa.  
+- Medição de engajamento: quantos gastos são registrados via chat.  
+- Feedback qualitativo sobre utilidade das dicas do agente.  
+- Testes de acessibilidade: verificar se pessoas com diferentes perfis conseguem usar o app sem barreiras.
+
+```
+
+Interações com o Lovable:
+
+Crie um app de finanças pessoais com base no seguinte PRD (Product Requirements Document):
+
+Tentei criar uma meta chamada de Reserva de Emergência ionformando o valor através do Assistente financeiro. Foi criado como se fosse um gasto e não uma meta. Poderia verificar?
+
+https://ask-me-finances.lovable.app
+
+<img width="1915" height="830" alt="image" src="https://github.com/user-attachments/assets/73ccf89e-299a-44e1-89db-10582ba26ae9" />
+
+# Funcionalidades do App de Finanças Pessoais
+
+## 1. Registro de Transações por Linguagem Natural
+- O usuário pode registrar gastos e receitas usando frases simples, como:
+  - "Inclua 500 gasto transporte"
+  - "Inclua mais 10000 salário"
+- O sistema interpreta e classifica automaticamente os dados inseridos.
+
+## 2. Classificação Automática de Gastos
+- As transações são organizadas por categorias como:
+  - Alimentação
+  - Transporte
+  - Outros
+- O sistema identifica e agrupa os gastos conforme o tipo.
+
+## 3. Resumo Financeiro Mensal
+- Exibe os principais dados do mês:
+  - Receitas totais
+  - Despesas totais
+  - Saldo final
+- Ajuda o usuário a visualizar rapidamente sua situação financeira.
+
+## 4. Relatórios Personalizados
+- Gráficos e listas mostram:
+  - Gastos por categoria
+  - Transações recentes
+- Interface clara e acessível para facilitar o entendimento.
+
+## 5. Metas Financeiras
+- O usuário pode definir objetivos como:
+  - Economizar um valor mensal
+  - Reduzir gastos em determinada categoria
+- O app acompanha o progresso e envia alertas.
+
+## 6. Dicas do Agente Financeiro
+- Sugestões automáticas de economia com base nos hábitos do usuário.
+- Estímulo à educação financeira de forma prática.
+
+## 7. Design Universal
+- Interface acessível e inclusiva:
+  - Linguagem simples
+  - Contraste adequado
+  - Compatível com diferentes dispositivos e perfis de usuário
+
+##Reflexão
+
+### o que funcionou bem?
+
+O somatório e a classificação por categorias.
+
+### o que não funcionou como esperado?
+
+Metas
+
+### o queaprendeu sobre conversar com IAs?
+
+A a experiência foi bem interessante e verificamos que o refinamento é uma fase que faz toda diferença quando se lida com IA's.
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
