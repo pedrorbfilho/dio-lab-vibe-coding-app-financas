@@ -1,8 +1,8 @@
 # 💸 App de Finanças Pessoais do Pedro com Vibe Coding
 
-PDR refinado no copilot web:
+PRD refinado no copilot web:
 
-```markdown
+```
 
 # PRD – App de Organização de Finanças Pessoais
 
